@@ -6,6 +6,7 @@ MAINTAINER Raphael Zimmermann <mister.norbert@gmail.com>
 RUN apt-get update
 RUN apt-get install cron -yqq
 RUN apt-get install supervisor -yqq
+RUN apt-get -yq install backup-manager
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
