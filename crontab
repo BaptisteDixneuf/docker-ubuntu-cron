@@ -1,1 +1,2 @@
-* * * * * root backup-manager
+* * * * * root sh /var/www/save.baptistedixneuf.fr/save.sh
+
